@@ -13,4 +13,4 @@ Lightning Design System - https://www.lightningdesignsystem.com/
 
 LWC Studio - https://chrome.google.com/webstore/detail/lightning-studio/ehkpneicmpbdejpoancidgkejlkahjgo
 
-Recording Links: https://drive.google.com/drive/u/0/folders/1frE-qdYq0Mgfpbk1-PRn06EtYwxKRFlG
+Recording Links: https://drive.google.com/drive/u/0/folders/1VsN7-9L9PAMSXcQtEEXROFKQc1Hv-Ity
