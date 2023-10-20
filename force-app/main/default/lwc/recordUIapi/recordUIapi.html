@@ -1,0 +1,19 @@
+<template>
+    <H1 class="header_Style">Hello {contactName}</H1>
+    <lightning-card title="Update Contact Details" icon-name="standard:agent_session">
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item size="12" large-device-size="6" medium-device-size="6" small-device-size="12">
+                <lightning-input type="text" label="FirstName" name="FirstName" value={contactFirstName} onchange={handleValueChange}>
+                </lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item size="12" large-device-size="6" medium-device-size="6" small-device-size="12">
+                <lightning-input type="text" label="LastName" name="LastName" value={contactLastName} onchange={handleValueChange}>
+                </lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item size="12">
+                <lightning-button label="save" onclick={saveContact}></lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+
+</template>
